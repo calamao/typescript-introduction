@@ -34,9 +34,6 @@ npm run test
 This has been the starting point for having a running webpack/typescript solution.
 Thanks to:
 Webpack 2 + TypeScript starter
----
-
-[![Build Status](https://travis-ci.org/juristr/webpack-typescript-starter.svg?branch=master)](https://travis-ci.org/juristr/webpack-typescript-starter)
 
 ## Starting webpack solution Features
 
