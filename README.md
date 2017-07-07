@@ -1,5 +1,12 @@
 # typescript-introduction
 
+## Recommendations
+
+We recommend using Visual Studio Code as an IDE. Typescript support is integrated by default.  
+Also, it's fancy, lightweight, and free!  
+
+https://code.visualstudio.com/
+
 ## How to use
 
 Just clone it and get going.
@@ -31,9 +38,9 @@ npm run test
 
 ## Starting webpack solution
 
-This has been the starting point for having a running webpack/typescript solution.
-Thanks to:
-Webpack 2 + TypeScript starter
+This has been the starting point for having a running webpack/typescript solution.  
+Thanks to:  
+Webpack 2 + TypeScript starter  
 
 ## Starting webpack solution Features
 
