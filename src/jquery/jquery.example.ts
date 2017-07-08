@@ -5,8 +5,9 @@
  */
 export function changeTitleAction(newTitle: string) {
 
-    $('button').click(() => {
+    $('button').click((jqueryEvent) => {
         $('h1').text(newTitle);
+        // jqueryEvent.
     });
 
 }

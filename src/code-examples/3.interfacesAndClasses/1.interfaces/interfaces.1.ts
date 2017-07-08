@@ -1,6 +1,6 @@
 
 // interface literal
-function printLabel(labelledObj: { label: string }) {
+export function printLabel(labelledObj: { label: string }) {
     console.log(labelledObj.label);
 }
 
