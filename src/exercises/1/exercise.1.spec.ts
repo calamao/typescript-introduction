@@ -1,4 +1,5 @@
 import { getSalary } from "./exercise.1";
+// import { getSalary } from "../../solutions/1/exercise.1";
 
 interface IGetSalary {
     (salary: number, bonus: boolean): number;

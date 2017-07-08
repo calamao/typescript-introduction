@@ -1,4 +1,5 @@
 import { doubleTheArray } from "./exercise.2";
+// import { doubleTheArray } from "../../solutions/2/exercise.2";
 
 interface IDoubleTheArray {
     (numberArray: number[]): number[];

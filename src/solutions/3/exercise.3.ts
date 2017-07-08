@@ -1,4 +1,3 @@
-// import { filterTheArray } from "../../solutions/3/exercise.3";
 
 /**
  * Do you know how filter function works in arrays? let's build our own.

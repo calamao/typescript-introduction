@@ -1,5 +1,6 @@
 // import { filterTheArray } from "./exercise.3";
 import { filterTheArray } from "./exercise.3";
+// import { filterTheArray } from "../../solutions/3/exercise.3";
 
 interface IFilterTheArray {
     <T>(array: T[], filter: (val: T) => boolean): T[];

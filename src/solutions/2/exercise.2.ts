@@ -1,4 +1,3 @@
-// import { doubleTheArray } from "../../solutions/2/exercise.2";
 /**
  * Build a function that takes in an array of numbers and returns another array multipliying by 2 each number of
  * the original array.
