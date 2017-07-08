@@ -7,7 +7,15 @@
     "start": "webpack-dev-server --port 9000 --inline --progress --profile --colors --watch --content-base src/",
     "build": "webpack --config webpack.config.js",
     "build.prod": "webpack --config webpack.config.js -p",
-    "test": "karma start karma.config.js"
+    "test-1": "karma start test-conf/karma.config.1.js",
+    "test-2": "karma start test-conf/karma.config.2.js",
+    "test-3": "karma start test-conf/karma.config.3.js",
+    "test-4": "karma start test-conf/karma.config.4.js",
+    "test-5": "karma start test-conf/karma.config.5.js",
+    "test-6": "karma start test-conf/karma.config.6.js",
+    "test-7": "karma start test-conf/karma.config.7.js",
+    "test-8": "karma start test-conf/karma.config.8.js",
+    "test-all": "karma start test-conf/karma.config.all.js"
   },
   "keywords": [
     "webpack",
