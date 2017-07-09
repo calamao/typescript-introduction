@@ -10,4 +10,7 @@ export function changeTitleAction(newTitle: string) {
         // jqueryEvent.
     });
 
+    // $('button').css("border: 1px solid red").append("<div>YAAAAAA<div>"); // Wrong: css get (not set)
+    // $('button').css("border", "1px solid red").append("<div>YAAAAAA<div>");
+
 }

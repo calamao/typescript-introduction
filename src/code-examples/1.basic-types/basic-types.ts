@@ -8,6 +8,7 @@ export class BasicTypes {
 
         // boolean
         let isDone: boolean = false;
+        // let isDone = false; // type inferring
 
         // numeric
         let decimal: number = 6;
