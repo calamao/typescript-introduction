@@ -22,9 +22,6 @@ interface IJar {
     getConcentration: (type: string) => number;
 }
 
-// type ArrayStringKey<T> = {
-//     [key: string]: T;
-// }
 export class Jar implements IJar {
     ingredients: { [label: string]: number } = {};
     total: number = 0;
