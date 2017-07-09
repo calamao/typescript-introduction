@@ -1,29 +1,22 @@
 
 /**
- * In this example we mix some tasty fruit juice. We can add some components with certain amounts. 
- * Sometimes we pour out a bit of our juice. Then we want to find out, which concentrations our fruit juice has.
- * 
-Example:
+The JavaScript standard now includes functional additions to array like map, filter and reduce, but sadly is missing the convenience functions range and sum . 
+Implement a version of range and sum.
 
-You take an empty jar for your juice
-Whenever the jar is empty, the concentrations are always 0
-Now you add 200 units of apple juice
-And then you add 200 units of banana juice
-Now the concentration of apple juice is 0.5 (50%)
-Then you pour out 200 units
-The concentration of apple juice is still 50%
-Then you add 200 units of apple juice again
-Now the concentration of apple juice is 0.75, while the concentration of banana juice is only 0.25 (300 units apple juice + 100 units banana juice)
- */
+Array.range(start, count) should return an array containing 'count' numbers from 'start' to 'start + count' Example: Array.range(0, 3) returns [0, 1, 2]
 
-// example interface... change the 'any's
-interface IJar {
-    add: (amount: any, type: any) => void;
-    pourOut: (amount: any) => void;
-    getTotalAmount: () => any;
-    getConcentration: (type: any) => any;
+Array.sum() return the sum of all numbers in the array Example: [0, 1, 2].sum() returns 3 Example: Array.range(-1,4).sum() should return 2
+
+*/
+
+export function addArrayCustomFunctions() {
+
+    Array.range = function(start, count) {
+        return [];
+    };
+
+    Array.prototype.sum = function() {
+        return 0;
+    };
 }
 
-export class Jar {
-
-}
