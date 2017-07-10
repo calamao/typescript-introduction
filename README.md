@@ -40,17 +40,20 @@ npm run build
 npm run test-1
 ```
 
-## Starting webpack solution
+## Starting webpack solution (special thanks)
 
 This has been the starting point for having a running webpack/typescript solution.  
 Thanks to:  
 Webpack 2 + TypeScript starter  
 
-## Starting webpack solution Features
+# Features
 
 - [x] Webpack 2
 - [x] TypeScript 2 compilation
 - [x] ts-lint
 - [x] Webpack 2 Development Server
 - [x] Karma and Jasmine test execution
+
+
+
 
