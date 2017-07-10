@@ -46,7 +46,7 @@ This has been the starting point for having a running webpack/typescript solutio
 Thanks to:  
 Webpack 2 + TypeScript starter  
 
-# Features
+### Features
 
 - [x] Webpack 2
 - [x] TypeScript 2 compilation
