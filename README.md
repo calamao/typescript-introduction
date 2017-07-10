@@ -7,6 +7,13 @@ Also, it's fancy, lightweight, and free!
 
 https://code.visualstudio.com/
 
+## Requirements
+
+You must have installed Node.js in your machine to be able to run npm commands:
+https://nodejs.org/es/
+
+Be sure you can run all the commands in "How to use" section before the session.
+
 ## How to use
 
 Just clone it and get going.
@@ -29,11 +36,8 @@ npm start
 # Build your app without minification: 
 npm run build
 
-# Build your app with minification: 
-npm run build.prod
-
 # run unit tests:
-npm run test
+npm run test-1
 ```
 
 ## Starting webpack solution
