@@ -3,15 +3,17 @@ import {HelloWorld} from './exercise.6';
 
 describe('Hello World', () => {
 
+    let targetTest = <any>HelloWorld;
+
     it('says hello world with no name', () => {
-        expect(HelloWorld.hello()).toEqual('Hello, World!');
+        expect(targetTest.hello()).toEqual('Hello, World!');
     });
 
     it('says hello to bob', () => {
-        expect(HelloWorld.hello('Bob')).toEqual('Hello, Bob!');
+        expect(targetTest.hello('Bob')).toEqual('Hello, Bob!');
     });
 
     it('says hello to sally', () => {
-        expect(HelloWorld.hello('Sally')).toEqual('Hello, Sally!');
+        expect(targetTest.hello('Sally')).toEqual('Hello, Sally!');
     });
 });
